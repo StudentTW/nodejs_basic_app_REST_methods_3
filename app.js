@@ -18,21 +18,21 @@ app.get('/', function (req, res) {
   res.send('Hello world');
 });
 
-//Second Method, We have already seen in previous apps
+//Second Method, 
 //Its a GET Method , which executes when app is listening at address "/AboutUs" after app server address http://0.0.0.0:8080/AboutUs
 app.get('/AboutUs', function (req, res) {
   res.send('This is my Node JS App');
 });
 
 
-//Third Method, We have already seen in previous apps
+//Third Method, 
 //Its a GET Method , which executes when app is listening at address "/Services" after app server address http://0.0.0.0:8080/Services
 app.get('/Services', function (req, res) {
   res.send('I Develop Node JS Apps');
 });
 
 
-//Fourth Method, We have already seen in previous apps
+//Fourth Method,
 //Its a GET Method , which executes when app is listening at address "/ContactUs" after app server address http://0.0.0.0:8080/ContactUs
 app.get('/ContactUs', function (req, res) {
   res.send('You Can contact me at abcd@xyz.com');
